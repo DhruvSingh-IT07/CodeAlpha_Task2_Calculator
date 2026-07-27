@@ -13,6 +13,7 @@ A web-based calculator built using HTML, CSS, and JavaScript. Users can perform 
 - Tools: VS Code, Git & GitHub
 
 ## Live Demo
+https://codealpha-task2-calculator-plum.vercel.app/
 
 ## Highlights
 - Practiced DOM manipulation and event handling in JavaScript.
