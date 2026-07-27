@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Outfit',sans-serif;
+}
+
+body{
+
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(135deg,#5B86E5,#36D1DC);
+}
+
+.calculator{
+
+    width:360px;
+
+    padding:25px;
+
+    border-radius:25px;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(18px);
+
+    box-shadow:
+    0 20px 45px rgba(0,0,0,.25);
+}
+
+#inputBox{
+
+    width:100%;
+    height:85px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:18px;
+
+    background:rgba(255,255,255,.15);
+
+    color:#fff;
+
+    font-size:38px;
+
+    text-align:right;
+
+    padding:20px;
+
+    margin-bottom:22px;
+}
+
+#inputBox::placeholder{
+    color:#fff;
+}
+
+.buttons{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:15px;
+}
+
+button{
+
+    height:65px;
+
+    border:none;
+
+    border-radius:16px;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    color:#fff;
+
+    background:rgba(255,255,255,.12);
+
+    transition:.25s;
+
+    box-shadow:0 5px 12px rgba(0,0,0,.15);
+}
+
+button:hover{
+
+    transform:translateY(-3px);
+
+    background:rgba(255,255,255,.22);
+}
+
+.operator{
+
+    background:#3246ff;
+}
+
+.operator:hover{
+
+    background:#2136ec;
+}
+
+.equalBtn{
+
+    background:#ff7a18;
+}
+
+.equalBtn:hover{
+
+    background:#f06500;
+}
